@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "FKGrotesk";
+  src: url("./fonts/FKGrotesk-Regular.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "FKGrotesk";
+  src: url("./fonts/FKGrotesk-Bold.ttf");
+  font-weight: bold;
+}
+
+$mainfont: "FKGrotesk";
+
+body,
+html {
+  font-size: 62.5%;
+  font-family: $mainfont;
+  margin: 0;
+  padding: 0;
+}
+
+div,
+p,
+span,
+ul,
+li,
+textarea,
+text,
+input,
+a {
+  font-size: 1.4rem;
+}
